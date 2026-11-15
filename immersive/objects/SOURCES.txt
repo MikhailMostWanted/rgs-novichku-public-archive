@@ -1,0 +1,6 @@
+Original procedural 3D illustrations created for the RGS Novichku redesign.
+Recreate with scripts/render-scene-objects.mjs against local Vite, then run scripts/encode-scene-objects.py to trim transparent studio space and encode WebP with Pillow (quality 93, method 6).
+Objects: calendar with 28 marks; extension rings; modular planning links; abstract document folio.
+These are symbolic illustrations, not depictions of official documents or physical premises.
+Geometry, lighting and composition authored in this repository; Three.js (MIT), bundled RoomEnvironment.
+No external online resource is needed at runtime.

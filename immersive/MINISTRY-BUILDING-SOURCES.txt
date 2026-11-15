@@ -1,0 +1,34 @@
+Ministry of Transport headquarters — procedural architectural 3D model
+Created for RGS «Новичку», 19 October 2026.
+
+Runtime: src/immersive/MinistryBuilding.tsx and MinistryBuildingModel.ts.
+Original procedural mesh geometry with instanced facade details.
+Fallback: ministry-building-poster.webp, rendered from the same scene.
+No remote assets, photographic textures, generative images or external runtime services.
+The model is a simplified architectural representation, not a measured survey or a photograph.
+
+Building identity and address, verified 19 October 2026:
+Ministry of Transport of the Russian Federation
+Moscow, Rozhdestvenka Street, 1, building 1.
+Official source: https://mintrans.gov.ru/ministry/contacts
+Official naming as main building: https://www.mintrans.gov.ru/press-center/news/11579
+
+Visual references inspected (not embedded, copied as texture or redistributed):
+1. Overall front facade, white end bays, five central balcony/window bays,
+   glazed upper floor, projecting cornice and dark ground storey:
+   «Министерство транспорта РФ, Москва 03.08.2026.jpg»
+   Alexander Tarabukin / SmallSonMarex, CC BY-SA 4.0.
+   https://commons.wikimedia.org/wiki/File:Министерство_транспорта_РФ,_Москва_03.08.2026.jpg
+   https://creativecommons.org/licenses/by-sa/4.0/
+2. Entry glazing, granite base and official lettering:
+   «Moscow 2026-07-17 134.jpg», Perituss, CC0 1.0.
+   https://commons.wikimedia.org/wiki/File:Moscow_2026-07-17_134.jpg
+   https://creativecommons.org/publicdomain/zero/1.0/
+3. Entrance details:
+   «Фасад здания Минтранса РФ.jpg», Humanitas2016, CC BY-SA 4.0.
+   https://commons.wikimedia.org/wiki/File:Фасад_здания_Минтранса_РФ.jpg
+   https://creativecommons.org/licenses/by-sa/4.0/
+
+The model uses warm ivory plaster, dark bronze window frames, dark cornice,
+muted granite and blue-grey glazing in the project's restrained palette.
+The observed geometry is simplified. No adjoining buildings or invented palace features.

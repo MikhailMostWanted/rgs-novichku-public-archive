@@ -1,0 +1,230 @@
+{
+  "checked": "2026-10-19",
+  "officialSources": [
+    "https://www.rosgranstroy.ru/filialy",
+    "https://www.rosgranstroy.ru/contacts"
+  ],
+  "scope": "14 verified building-level locations: Central Office and 13 branches. This is a verified subset, not a claim of full branch coverage.",
+  "coordinateSource": "OpenStreetMap / Nominatim, cached one-time research, one request per second maximum, house/street-level results only. No live geocoding.",
+  "coordinateLicense": "ODbL 1.0, https://www.openstreetmap.org/copyright",
+  "excluded": [
+    {
+      "city": "Владикавказ",
+      "officialAddress": "362008, г. Владикавказ, пр‑кт Коста, д. 93 (Capital plaza)",
+      "reason": "Exact building-level coordinate not unambiguously verified; no approximate marker substituted."
+    },
+    {
+      "city": "Ростов-на-Дону",
+      "officialAddress": "344068, г. Ростов‑на‑Дону, пр‑кт Михаила Нагибина, д. 30и, 4-й этаж, комната 404",
+      "reason": "Exact building-level coordinate not unambiguously verified; no approximate marker substituted."
+    },
+    {
+      "city": "Санкт-Петербург",
+      "officialAddress": "196070, г. Санкт‑Петербург, ул. Анатолия Кони, д. 5, к. 1, стр. 1, пом. 37‑Н",
+      "reason": "Exact building-level coordinate not unambiguously verified; no approximate marker substituted."
+    },
+    {
+      "city": "Калининград",
+      "officialAddress": "236040, г. Калининград, ул. Профессора Севастьянова, д. 3",
+      "reason": "Exact building-level coordinate not unambiguously verified; no approximate marker substituted."
+    }
+  ],
+  "offices": [
+    {
+      "id": "moscow",
+      "city": "Москва",
+      "name": "Центральный аппарат",
+      "address": "107078, г. Москва, ул. Садовая-Спасская, д. 18, стр. 1",
+      "source": "https://www.rosgranstroy.ru/contacts",
+      "checked": "2026-10-19",
+      "latitude": 55.7698175,
+      "longitude": 37.6441548,
+      "osmUrl": "https://www.openstreetmap.org/way/42806671",
+      "matchedAddress": "18 с1, Садовая-Спасская улица, Красносельский район, Москва, Центральный федеральный округ, 105175, Россия",
+      "houseNumber": "18 с1",
+      "label": true
+    },
+    {
+      "id": "belgorod",
+      "city": "Белгород",
+      "name": "Белгородский филиал",
+      "address": "308000, г. Белгород, ул. Чумичова, д. 31а",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 50.596425,
+      "longitude": 36.592444,
+      "osmUrl": "https://www.openstreetmap.org/way/102680107",
+      "matchedAddress": "31А, улица Николая Чумичова, Савино, Восточный округ, Белгород, городской округ Белгород, Белгородская область, Центральный федеральный округ, 308600, Россия",
+      "houseNumber": "31А",
+      "label": false
+    },
+    {
+      "id": "bryansk",
+      "city": "Брянск",
+      "name": "Брянский филиал",
+      "address": "241000, г. Брянск, пер. Канатный, д. 5",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 53.2325669,
+      "longitude": 34.3522152,
+      "osmUrl": "https://www.openstreetmap.org/way/141214168",
+      "matchedAddress": "5, Канатный переулок, Советский район, Брянск, городской округ Брянск, Брянская область, Центральный федеральный округ, 241050, Россия",
+      "houseNumber": "5",
+      "label": false
+    },
+    {
+      "id": "vladivostok",
+      "city": "Владивосток",
+      "name": "Владивостокский филиал",
+      "address": "690091, г. Владивосток, Океанский пр‑кт, д. 18",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 43.1190432,
+      "longitude": 131.8869802,
+      "osmUrl": "https://www.openstreetmap.org/way/79012250",
+      "matchedAddress": "18, Океанский проспект, Центр, Ленинский район, Владивосток, Владивостокский городской округ, Приморский край, Дальневосточный федеральный округ, 690000, Россия",
+      "houseNumber": "18",
+      "label": true
+    },
+    {
+      "id": "volgograd",
+      "city": "Волгоград",
+      "name": "Волгоградский филиал",
+      "address": "400005, г. Волгоград, пр‑кт им. В.И. Ленина, д. 92",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 48.7455268,
+      "longitude": 44.5496282,
+      "osmUrl": "https://www.openstreetmap.org/way/118684612",
+      "matchedAddress": "Административное здание с производственным цехом, 92, проспект Ленина, Краснооктябрьский район, Волгоград, городской округ Волгоград, Волгоградская область, Южный федеральный округ, 400078, Россия",
+      "houseNumber": "92",
+      "label": false
+    },
+    {
+      "id": "simferopol",
+      "city": "Симферополь",
+      "name": "Крымский филиал",
+      "address": "295017, г. Симферополь, ул. Рубцова, д. 44а",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 44.9589589,
+      "longitude": 34.12602,
+      "osmUrl": "https://www.openstreetmap.org/way/327726168",
+      "matchedAddress": "АНО \"Фонд Защиты Вкладчиков\", 44А, улица Рубцова, Сад Шевченко (Чивчинкан багъчасы), Новый город, Киевский район, Симферополь, Сімферопольський район, Автономна Республіка Крим, 295017, Україна",
+      "houseNumber": "44А",
+      "label": false
+    },
+    {
+      "id": "makhachkala",
+      "city": "Махачкала",
+      "name": "Махачкалинский филиал",
+      "address": "367008, г. Махачкала, пр‑кт И. Шамиля, д. 1",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 42.9815391,
+      "longitude": 47.4741562,
+      "osmUrl": "https://www.openstreetmap.org/way/120569709",
+      "matchedAddress": "1, проспект Имама Шамиля, Троллейбусное кольцо, микрорайон Узбекистан, Советский район, Махачкала, городской округ Махачкала, Дагестан, Северо-Кавказский федеральный округ, 367000, Россия",
+      "houseNumber": "1",
+      "label": false
+    },
+    {
+      "id": "murmansk",
+      "city": "Мурманск",
+      "name": "Мурманский филиал",
+      "address": "183008, г. Мурманск, пр‑кт Ленина, д. 43",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 68.9588956,
+      "longitude": 33.0726189,
+      "osmUrl": "https://www.openstreetmap.org/way/43688258",
+      "matchedAddress": "43, проспект Ленина, 102 м-р, Гвардейский, Октябрьский округ, Мурманск, городской округ Мурманск, Мурманская область, Северо-Западный федеральный округ, 183038, Россия",
+      "houseNumber": "43",
+      "label": true
+    },
+    {
+      "id": "novosibirsk",
+      "city": "Новосибирск",
+      "name": "Новосибирский филиал",
+      "address": "630099, г. Новосибирск, ул. Щетинкина, д. 49",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 55.0290396,
+      "longitude": 82.9281023,
+      "osmUrl": "https://www.openstreetmap.org/way/29237693",
+      "matchedAddress": "49, улица Щетинкина, Депутатский, Центральный район, Новосибирск, Новосибирская область, Сибирский федеральный округ, 630099, Россия",
+      "houseNumber": "49",
+      "label": true
+    },
+    {
+      "id": "pskov",
+      "city": "Псков",
+      "name": "Псковский филиал",
+      "address": "180007, г. Псков, ул. Пароменская, д. 23",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 57.819465,
+      "longitude": 28.3138284,
+      "osmUrl": "https://www.openstreetmap.org/way/66000378",
+      "matchedAddress": "Псковская ГТС, 23, Пароменская улица, Завеличье, городской округ Псков, Псковская область, Северо-Западный федеральный округ, 180007, Россия",
+      "houseNumber": "23",
+      "label": false
+    },
+    {
+      "id": "sochi",
+      "city": "Сочи",
+      "name": "Сочинский филиал",
+      "address": "354002, г. Сочи, ул. Черноморская, д. 15",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 43.5658923,
+      "longitude": 39.7416064,
+      "osmUrl": "https://www.openstreetmap.org/way/51871369",
+      "matchedAddress": "15, Черноморская улица, Театральная, Центральный внутригородской район, Хостинский внутригородской район, Сочи, городской округ Сочи, Краснодарский край, Южный федеральный округ, 354002, Россия",
+      "houseNumber": "15",
+      "label": false
+    },
+    {
+      "id": "khabarovsk",
+      "city": "Хабаровск",
+      "name": "Хабаровский филиал",
+      "address": "680000, г. Хабаровск, ул. Истомина, д. 14",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 48.4703496,
+      "longitude": 135.0663223,
+      "osmUrl": "https://www.openstreetmap.org/way/274806601",
+      "matchedAddress": "14, улица Истомина, Центр, Центральный район, Хабаровск, городской округ Хабаровск, Хабаровский край, Дальневосточный федеральный округ, 680000, Россия",
+      "houseNumber": "14",
+      "label": false
+    },
+    {
+      "id": "chelyabinsk",
+      "city": "Челябинск",
+      "name": "Челябинский филиал",
+      "address": "454018, г. Челябинск, ул. Краснознаменная, д. 32",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 55.1824854,
+      "longitude": 61.379111,
+      "osmUrl": "https://www.openstreetmap.org/way/60200144",
+      "matchedAddress": "32, Краснознамённая улица, Калининский район, Челябинск, Челябинский городской округ, Челябинская область, Уральский федеральный округ, 454106, Россия",
+      "houseNumber": "32",
+      "label": false
+    },
+    {
+      "id": "chita",
+      "city": "Чита",
+      "name": "Читинский филиал",
+      "address": "672000, г. Чита, ул. Костюшко-Григоровича, д. 4",
+      "source": "https://www.rosgranstroy.ru/filialy",
+      "checked": "2026-10-19",
+      "latitude": 52.0356507,
+      "longitude": 113.5032478,
+      "osmUrl": "https://www.openstreetmap.org/way/51476126",
+      "matchedAddress": "4, улица Костюшко-Григоровича, Центральный район, Чита, городской округ Чита, Забайкальский край, Дальневосточный федеральный округ, 672021, Россия",
+      "houseNumber": "4",
+      "label": true
+    }
+  ]
+}

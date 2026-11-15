@@ -1,0 +1,40 @@
+RGS Geographic Atlas — local resources and provenance
+
+OFFICES / COORDINATES
+Official names and addresses: https://www.rosgranstroy.ru/filialy
+Central Office: https://www.rosgranstroy.ru/contacts
+Checked: 2026-10-19.
+The current illustration includes 14 verified building-level locations
+(Central Office and 13 branches). It does not claim to show the entire network.
+No street centroids, invented office locations, or estimated coordinates are used.
+Four ambiguous address matches were excluded; see office-provenance.json.
+
+Coordinates: OpenStreetMap contributors, ODbL 1.0.
+https://www.openstreetmap.org/copyright
+A one-time small extraction was geocoded through Nominatim, on one machine,
+in a single thread, with a maximum of one request per second and cached results.
+No public geocoding API is called by the website. Individual OSM object URLs,
+matched house numbers, official source URLs, and exclusions ship in
+public/immersive/office-provenance.json and src/immersive/office-data.json.
+
+EARTH IMAGERY
+NASA Earth Observatory, Blue Marble: Next Generation — July 2004 base map.
+https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/
+https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/july/world.200407.3x5400x2700.jpg
+Credit: NASA Earth Observatory / Reto Stöckli, NASA Goddard Space Flight Center.
+NASA imagery usage: https://www.nasa.gov/nasa-brand-center/images-and-media/
+No NASA logo, endorsement, or current weather representation is implied.
+The original 5400 x 2700 mosaic was locally downsampled to 4096 x 2048,
+slightly desaturated, and compressed to WebP for realtime rendering.
+The static fallback was projected from the same image and viewpoint locally.
+Atmosphere, graticule geometry, lighting, geographic projection, and animation
+are original procedural work for this project, not current Earth observations.
+
+LEGACY ARTWORK
+Previous earth-atlas.png / earth-relief.png were generated from Natural Earth
+1:110m public-domain land geography. The v2 globe uses NASA imagery instead.
+https://www.naturalearthdata.com/about/terms-of-use/
+https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson
+
+All runtime assets and office data are bundled locally. Source links open only
+when the visitor explicitly chooses them.
